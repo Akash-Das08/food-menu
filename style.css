@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: "fantasy"
+}
+
+.content-heading {
+  color : white;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.content-para {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.heading {
+  font-size: 65px;
+  color: #d46f9d;
+  font-weight: 700;
+  margin: 0% 10%;
+}
+
+.img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.menu {
+  background-color: rgb(163, 50, 116);
+  margin: 0;
+  display: grid;
+  grid-template-columns: 4fr 3fr 2fr;
+  padding: 5%;
+}
+
+.menu-content-1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0 5%;
+}
+
+.menu-content-2 {
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  margin: 0 5%;
+}
+
+.top-container {
+  text-align: center;
+  font-weight: 1000;
+  margin: 5% 10%;
+}
+
+.box {
+  background-color: #6d3e5b;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 5%;
+  width: 25%;
+}
+
+.middle-container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 2% 10%;
+}
+.bottom-container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 2% 10%;
+}
+
+@media only screen and (max-width: 500px) {
+  /* when on mobile */
+  [class*="box"] {
+    width: 100%;
+  }
+}
